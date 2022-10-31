@@ -11,14 +11,12 @@ export class UsersComponent implements OnInit {
 
   constructor() { }
 
-  yeri :User = {
-    id:1,
-    name: "Yeri",
-    email: "test@gmail.com",
-    country: "France"
-  }
-
   users: User[] = usersData;  
+  selectedUser?: User;
+
+  showDetails(user: User): void {
+    this.selectedUser = user; 
+  }
 
   ngOnInit(): void {
   }
