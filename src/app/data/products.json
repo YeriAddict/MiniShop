@@ -127,13 +127,15 @@
   },
   {  
     "id": 19,  
-    "name": "Queendom",  
+    "name": "Queendom", 
+    "artist": "Red Velvet", 
     "date": 2021,  
     "price": 25
   },
   {  
     "id": 20,  
     "name": "The Reve Festival 2022 - Feel My Rhythm",  
+    "artist": "Red Velvet",
     "date": 2019,  
     "price": 25
   },
