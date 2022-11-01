@@ -8,11 +8,6 @@
     </li>
   </ul> 
 
-  <div *ngIf="selectedUser">
-    <p>ID : {{selectedUser.id}}</p>
-    <p>Username : {{selectedUser.name}}</p>
-    <p>Email : {{selectedUser.email}}</p>
-    <p>Country : {{selectedUser.country}}</p>
-  </div>
-
 </div>  
+
+<app-user-detail [user]="selectedUser"></app-user-detail>
