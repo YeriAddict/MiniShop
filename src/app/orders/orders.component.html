@@ -1,0 +1,13 @@
+<div class="container">  
+    
+    <ul class="orders_list">
+      <li *ngFor="let order of orders">
+        <button [class.selected]="order === selectedOrder" type="button" (click)="showDetails(order)">
+          <span class="name">{{order.id}}</span>
+        </button>
+      </li>
+    </ul> 
+  
+  </div>  
+  
+  <app-order-detail [order]="selectedOrder"></app-order-detail>
