@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Product } from './interfaces/product';
 import { Observable, of } from 'rxjs';
+import { Product } from './interfaces/product';
 import productsData from './data/products.json';
 
 @Injectable({
@@ -13,5 +13,10 @@ export class ProductService {
   getProducts(): Observable<Product[]> {
     const products = of(productsData);
     return products;
+  }
+
+  getProduct(id: number): Observable<Product> {
+    const product = productsData.find(product => product.id === id)!;
+    return of(product);
   }
 }

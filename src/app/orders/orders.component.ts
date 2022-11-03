@@ -12,11 +12,6 @@ export class OrdersComponent implements OnInit {
   constructor(private orderService: OrderService) {}
 
   orders: Order[] = [];  
-  selectedOrder?: Order;
-
-  showDetails(order: Order): void {
-    this.selectedOrder = order; 
-  }
 
   getOrders(): void {
     this.orderService.getOrders().subscribe(orders => this.orders = orders);

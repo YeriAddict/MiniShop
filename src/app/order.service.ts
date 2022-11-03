@@ -14,4 +14,9 @@ export class OrderService {
     const orders = of(ordersData);
     return orders;
   }
+
+  getOrder(id: number): Observable<Order> {
+    const order = ordersData.find(order => order.id === id)!;
+    return of(order);
+  }
 }
