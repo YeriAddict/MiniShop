@@ -1,18 +1,20 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { Product } from './interfaces/product';
-import productsData from './data/products.json';
+import productsData from '../assets/products.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  constructor() { }
+  private productsUrl = 'assets/products.json';
+
+  constructor(private http: HttpClient) { }
 
   getProducts(): Observable<Product[]> {
-    const products = of(productsData);
-    return products;
+    return this.http.get<Product[]>(this.productsUrl)
   }
 
   getProduct(id: number): Observable<Product> {
