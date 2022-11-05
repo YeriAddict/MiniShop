@@ -1,0 +1,62 @@
+ul
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5CDB95;
+    gap: 10px;
+    list-style-type: none;
+}
+
+li
+{
+    height:60px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 2s;
+}
+
+#number
+{
+    width: 20%; 
+    height: 100%;
+    border-radius: 10px;
+    float:left;
+    text-align: center;
+    background-color: #379683;
+    display: flex;
+    align-items: center;
+}
+
+#name
+{
+    width: 60%; 
+    height: 100%;
+    border-radius: 10px;
+    float:left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#money
+{
+    width: 20%; 
+    height: 100%;
+    border-radius: 10px;
+    float:right;
+    text-align: center;
+    background-color: #EDF5E1;
+    display: flex;
+    align-items: center;
+}
+p
+{
+    text-align:center; 
+    font-size: 16px;
+    width:100%;
+    margin-top: 20px;
+}
