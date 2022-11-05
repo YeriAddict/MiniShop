@@ -1,12 +1,7 @@
-<div class="container">  
-    
-  <ul class="orders_list">
-    <li *ngFor="let order of orders">
-      <a routerLink="/orders/detail/{{order.id}}">
-        <span class="badge">Order {{order.id}}</span>
-      </a>
-    </li>
-  </ul> 
-  
-</div>  
-  
+<ul class="orders_list">
+  <li *ngFor="let order of orders">
+    <a routerLink="/orders/detail/{{order.id}}">
+      <span class="badge">Order {{order.id}}</span>
+    </a>
+  </li>
+</ul> 

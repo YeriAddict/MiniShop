@@ -1,12 +1,8 @@
-<div class="container">  
-    
-  <ul class="products_list">
-    <li *ngFor="let product of products">
-      <a routerLink="/products/detail/{{product.id}}">
-        <span class="badge">{{product.id}}</span> {{product.name}}
-      </a>
-    </li>
-  </ul> 
-  
-</div>  
-  
+<ul class="products_list">
+  <li *ngFor="let product of products">
+    <a routerLink="/products/detail/{{product.id}}">
+      <span class="badge">{{product.id}}</span> {{product.name}}
+    </a>
+  </li>
+</ul>  
+ 
