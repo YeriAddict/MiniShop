@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'; 
 
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
@@ -11,6 +11,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { OrdersComponent } from './orders/orders.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsComponent,
     ProductDetailComponent,
     OrdersComponent,
-    OrderDetailComponent
+    OrderDetailComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
