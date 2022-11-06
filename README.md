@@ -53,8 +53,12 @@ Clone the repository with SSH or HTTPS
 
 ### Installation
 
-You will need to install Angular CLI.
-  ```sh
+You will need to init and install Angular CLI.
+ ```sh
+  npm init 
+  ```
+ 
+ ```sh
   npm install -g @angular/cli 
   ```
 
