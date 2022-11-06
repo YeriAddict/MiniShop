@@ -75,19 +75,19 @@ You will need to install Angular CLI.
 
 3. You can now choose to check users, products or orders
 
-<img src="images/shop_one.png" alt="Logo" width="900" height="400">
+<img src="images/shop_one.png" alt="Logo" width="500" height="400">
 
-<img src="images/shop_two.png" alt="Logo" width="900" height="400">
+<img src="images/shop_two.png" alt="Logo" width="500" height="400">
 
-<img src="images/shop_three.png" alt="Logo" width="900" height="400">
+<img src="images/shop_three.png" alt="Logo" width="500" height="400">
 
 4. You can also click on any element of the lists to find more details
 
-<img src="images/shop_four.png" alt="Logo" width="900" height="400">
+<img src="images/shop_four.png" alt="Logo" width="500" height="400">
 
 5. Finally, you can submit a message which will be displayed in an alert box 
 
-<img src="images/shop_five.png" alt="Logo" width="900" height="400">
+<img src="images/shop_five.png" alt="Logo" width="500" height="400">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
