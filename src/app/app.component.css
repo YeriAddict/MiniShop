@@ -9,8 +9,21 @@ nav
 {
     border-top:solid;
     font-size:30px;
-    text-align: center;
+
     border-bottom:solid;
     color:#5CDB95;
     background-color: #5CDB95;
+    margin-left: 29%;
+    margin-right: 21%;
+}
+
+span
+{
+    margin-right: 50px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 80px;
 }
