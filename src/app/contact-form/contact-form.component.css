@@ -1,7 +1,43 @@
-.ng-valid[required], .ng-valid.required  {
+.ng-valid[required], .ng-valid.required  
+{
     border-left: 5px solid green;
 }
   
-.ng-invalid:not(form)  {
+.ng-invalid:not(form)  
+{
     border-left: 5px solid red;
+}
+
+form
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5CDB95;
+    gap: 70px;
+    list-style-type: none;
+}
+
+.form-group
+{
+    height:60px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 2s;
+
+}
+
+label
+{
+    text-align: center;
+    margin-left: 45%;
+}
+
+button
+{
+    margin-left: 40%;
+    margin-right: 40%;
 }
