@@ -1,0 +1,16 @@
+body 
+{
+    background-color: #7EBEEB;
+    background-size: auto;
+    background-repeat : no-repeat;
+}
+
+nav
+{
+    border-top:solid;
+    font-size:30px;
+    text-align: center;
+    border-bottom:solid;
+    color:#5CDB95;
+    background-color: #5CDB95;
+}

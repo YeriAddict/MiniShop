@@ -2,9 +2,17 @@
     <h1>
         <a routerLink="/">{{title}}</a>
     </h1>
-    <a routerLink="/users">Users</a>
-    <a routerLink="/products">Products</a>
-    <a routerLink="/orders">Orders</a>
-    <a routerLink="/contact">Contact</a>
+    <a routerLink="/users">
+        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Users</span>
+    </a>
+    <a routerLink="/products">
+        <i class="fs-4 bi-grid"></i><span class="ms-1 d-none d-sm-inline">Products</span>
+    </a>
+    <a routerLink="/orders">
+        <i class="fs-4 bi-table"></i><span class="ms-1 d-none d-sm-inline">Orders</span>
+    </a>
+    <a routerLink="/contact">
+        <i class="fs-4 bi-chat-square-heart-fill"></i><span class="ms-1 d-none d-sm-inline">Contact</span>
+    </a>
 </nav>
 <router-outlet></router-outlet>
