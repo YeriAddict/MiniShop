@@ -30,17 +30,6 @@ li
     align-items: center;
 }
 
-#name
-{
-    width: 60%; 
-    height: 100%;
-    border-radius: 10px;
-    float:left;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
 p
 {
     text-align:center; 
