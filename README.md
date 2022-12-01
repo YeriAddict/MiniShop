@@ -34,7 +34,7 @@ This is a simplistic shop only displaying lists of products, users and orders.
 ### Built With
 
 * [Node.js](https://nodejs.org/en/)
-* [Angular](https://angular.io/))
+* [Angular](https://angular.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
